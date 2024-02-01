@@ -27,7 +27,7 @@ ul, ol, menu{
     padding: 20px;
 }
 
-.row-reverse{
+.row .row-reverse{
     display: flex;
     justify-content: center;
     flex-direction: row-reverse;
@@ -76,6 +76,12 @@ footer{
 
 .col-1{
     width: calc(100% / 6);
+
+}
+
+.line{
+    border: 2px solid grey;
+    margin: 20px;
 
 }
 

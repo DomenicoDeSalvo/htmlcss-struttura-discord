@@ -12,10 +12,10 @@ ul, ol, menu{
 /* Layout */
 .container{
     margin: 0 auto;
-    max-width: 900px;
+    max-width: 1024px;
+    
 }
 
-/* Header */
 .main-header{
     background-color: aqua;
     padding: 20px;
@@ -24,7 +24,13 @@ ul, ol, menu{
 
 .row{
     display: flex;
-    
+    justify-content: center;
+}
+
+.row-reverse{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
 }
 
 .col-20{
@@ -33,6 +39,30 @@ ul, ol, menu{
 
 .col-60{
     width: 60%;
+}
+
+.blue-section{
+    background-color: blue;
+    padding: 20px;
+
+}
+
+.col-100{
+    width: 100%;
+    
+}
+
+.white-section{
+    padding: 20px;
+}
+
+.col-40{
+    width: 40%;
+}
+
+.grey-section{
+    padding: 20px;
+    background-color: grey;
 }
 
 /* Debug */
@@ -46,6 +76,38 @@ ul, ol, menu{
    
 
 }
-        
+
+#prov-text-c{
+    text-align: center;
+}
+
+#prov-text-r{
+    text-align: right;
+}
+
+
+.debug .blue-section .col-100{
+    background-color: magenta;
+    min-height: 300px;
+    max-width: 800px;
+
+}
+
+.debug .col-40{
+    background-color: pink;
+    min-height: 300px;
+}
+
+.debug .main-content .col-60{
+    background-color: aqua;
+    min-height: 300px;
+}
+
+.debug .grey-section .col-100{
+    background-color: green;
+    min-height: 1000px;
+    max-width: 800px;
+
+}
 
 
